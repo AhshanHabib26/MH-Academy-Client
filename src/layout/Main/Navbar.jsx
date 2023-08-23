@@ -33,7 +33,10 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link className="text-lg my-1  hover:text-red-500" to="/all-courses">
+                <Link
+                  className="text-lg my-1  hover:text-red-500"
+                  to="/all-courses"
+                >
                   All Courses
                 </Link>
               </li>
@@ -48,7 +51,10 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link className="text-lg my-1  hover:text-red-500" to="/contact">
+                <Link
+                  className="text-lg my-1  hover:text-red-500"
+                  to="/contact"
+                >
                   Conatct Us
                 </Link>
               </li>
