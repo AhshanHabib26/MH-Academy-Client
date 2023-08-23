@@ -1,0 +1,21 @@
+.bgBanner {
+  background-image: url(../assets/image/BannerImg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+ 
+}
+
+.bgOverlay {
+  background-color: #ffe6e6;
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
