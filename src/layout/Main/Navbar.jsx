@@ -4,7 +4,7 @@ import LogoIcon from "../../assets/icons/Logo.png";
 export default function Navbar() {
   return (
     <div>
-      <div className="navbar bg-gray-800 text-white shadow-xl px-2 lg:px-10 ">
+      <div className="navbar bg-gray-800 text-white shadow-xl px-2 lg:px-14 ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -28,31 +28,34 @@ export default function Navbar() {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-800 rounded-box w-52"
             >
               <li>
-                <Link className="text-lg  hover:text-red-500" to="/">
+                <Link className="text-[16px]   hover:text-red-500" to="/">
                   Home
                 </Link>
               </li>
               <li>
                 <Link
-                  className="text-lg my-1  hover:text-red-500"
+                  className="text-[16px]  my-1  hover:text-red-500"
                   to="/all-courses"
                 >
                   All Courses
                 </Link>
               </li>
               <li>
-                <Link className="text-lg  hover:text-red-500" to="/instractor">
+                <Link
+                  className="text-[16px]   hover:text-red-500"
+                  to="/instractor"
+                >
                   Instractor
                 </Link>
               </li>
               <li>
-                <Link className="text-lg  hover:text-red-500" to="/blog">
+                <Link className="text-[16px]  hover:text-red-500" to="/blog">
                   Blog
                 </Link>
               </li>
               <li>
                 <Link
-                  className="text-lg my-1  hover:text-red-500"
+                  className="text-[16px]  my-1  hover:text-red-500"
                   to="/contact"
                 >
                   Conatct Us
@@ -62,7 +65,7 @@ export default function Navbar() {
           </div>
           <div className="flex items-center cursor-pointer">
             <img className="w-[40px] h-[40px]" src={LogoIcon} alt="" />
-            <Link to="/" className=" text-xl  lg:text-2xl font-bold ml-2">
+            <Link to="/" className="text-lg  lg:text-xl font-bold ml-2">
               MH Academy
             </Link>
           </div>
@@ -70,27 +73,33 @@ export default function Navbar() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link className="text-lg  hover:text-red-500" to="/">
+              <Link className="text-[16px]  hover:text-red-500" to="/">
                 Home
               </Link>
             </li>
             <li>
-              <Link className="text-lg  hover:text-red-500" to="/all-courses">
+              <Link
+                className="text-[16px]   hover:text-red-500"
+                to="/all-courses"
+              >
                 All Courses
               </Link>
             </li>
             <li>
-              <Link className="text-lg  hover:text-red-500" to="/instractor">
+              <Link
+                className="text-[16px]  hover:text-red-500"
+                to="/instractor"
+              >
                 Instractor
               </Link>
             </li>
             <li>
-              <Link className="text-lg  hover:text-red-500" to="/blog">
+              <Link className="text-[16px]   hover:text-red-500" to="/blog">
                 Blog
               </Link>
             </li>
             <li>
-              <Link className="text-lg  hover:text-red-500" to="/contact">
+              <Link className="text-[16px]   hover:text-red-500" to="/contact">
                 Conatct Us
               </Link>
             </li>

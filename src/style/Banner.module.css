@@ -7,7 +7,6 @@
   height: 600px;
  
 }
-
 .bgOverlay {
   background-color: #ffe6e6;
   opacity: 0.85;
@@ -18,4 +17,18 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+.BannerTitle::after{
+  position: absolute;
+  content: "";
+  border: 2px  dotted #EF4444;
+  width: 220px;
+  left: 15px;
+  border-radius: 100%; 
+}
+
+
+.BannerOn{
+  font-family: "Mr Bedfort", cursive;
+  color: #EF4444;
 }
