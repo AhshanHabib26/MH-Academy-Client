@@ -22,7 +22,7 @@ export default function WhyChoose() {
                   size="45"
                 />
                 <div className="mt-3">
-                  <h1 className="text-2xl font-semibold text-red-400 my-2">
+                  <h1 className="text-xl font-semibold text-red-400 my-2">
                     Go At Your Own Space{" "}
                   </h1>
                   <p className="text-[16px]">
@@ -37,7 +37,7 @@ export default function WhyChoose() {
                   size="45"
                 />
                 <div className="mt-3">
-                  <h1 className="text-2xl font-semibold text-red-400 my-2">
+                  <h1 className="text-xl font-semibold text-red-400 my-2">
                     Learn From Industry Experts{" "}
                   </h1>
                   <p className="text-[16px]">
@@ -52,7 +52,7 @@ export default function WhyChoose() {
                   size="45"
                 />
                 <div className="mt-3">
-                  <h1 className="text-2xl font-semibold text-red-400 my-2">
+                  <h1 className="text-xl font-semibold text-red-400 my-2">
                     Learn On Your Schedule{" "}
                   </h1>
                   <p className="text-[16px]">
