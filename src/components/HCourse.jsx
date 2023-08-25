@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 export default function HCourse() {
   return (
     <div className={Style.HCourseBannerBg}>
-      <div className="px-3 lg:px-14 py-10">
-        <div className="text-center mb-5">
+      <div className="px-3 lg:px-14 py-14">
+        <div className="text-center mb-8">
           <h1 className="text-lg text-red-500 uppercase">Popular Courses</h1>
           <p className="text-3xl font-semibold text-gray-600">
             Our Featured Courses
@@ -29,7 +29,7 @@ export default function HCourse() {
                   Beginner
                 </h1>
               </div>
-              <div className="p-3">
+              <div className="p-4">
                 <div className="flex items-center justify-between">
                   <h1 className="text-lg text-gray-800">Web Development</h1>
                   <h1 className="text-lg font-semibold text-red-500">$500</h1>
@@ -69,7 +69,7 @@ export default function HCourse() {
                   Intermediet
                 </h1>
               </div>
-              <div className="p-3">
+              <div className="p-4">
                 <div className="flex items-center justify-between">
                   <h1 className="text-lg text-gray-800">Web Development</h1>
                   <h1 className="text-lg font-semibold text-red-500">$500</h1>
@@ -109,7 +109,7 @@ export default function HCourse() {
                   Advanced
                 </h1>
               </div>
-              <div className="p-3">
+              <div className="p-4">
                 <div className="flex items-center justify-between">
                   <h1 className="text-lg text-gray-800">Web Development</h1>
                   <h1 className="text-lg font-semibold text-red-500">$500</h1>
@@ -138,7 +138,7 @@ export default function HCourse() {
               </div>
             </div>
           </div>
-          <div className="flex items-end justify-end mt-6">
+          <div className="flex items-end justify-end mt-8">
             <Link to="/all-courses" className="btn bg-red-500 hover:bg-red-600 text-white cursor-pointer">
               Explore More
             </Link>

@@ -14,7 +14,7 @@ export default function Banner() {
                     Start To Your New Journey
                   </h1>
                 </div>
-                <h1 className="text-4xl lg:text-7xl font-bold pr-0 lg:pr-20">
+                <h1 className="text-6xl lg:text-7xl font-bold pr-0 lg:pr-20">
                   Best <span className={Styles.BannerOn}>Online</span> courses
                   from <span className={Styles.BannerOn}>MH</span>Academy!
                 </h1>

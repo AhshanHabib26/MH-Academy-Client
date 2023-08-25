@@ -6,7 +6,7 @@ export default function SkillsBanner() {
   return (
     <div>
       <div className="px-3 lg:px-14">
-        <div className="flex items-center justify-around flex-col-reverse lg:flex-row my-12">
+        <div className="flex items-center justify-around flex-col-reverse lg:flex-row my-16">
           <div className="flex flex-1">
             <img
               className="w-[600px] rounded-lg mt-8 lg:mt-0"
