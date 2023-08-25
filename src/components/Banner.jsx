@@ -3,9 +3,9 @@ import BannerImg from "../assets/image/Banner.svg";
 import Styles from "../style/Banner.module.css";
 export default function Banner() {
   return (
-    <div className="bg-orange-50 py-20 lg:py-0">
+    <div className="bg-orange-50 py-12 lg:py-0">
       <div className="px-3 lg:px-14">
-        <div className=" flex items-center justify-center">
+        <div className=" flex items-center justify-between">
           <div className="flex flex-1">
             <div>
               <div>
@@ -14,7 +14,7 @@ export default function Banner() {
                     Start To Your New Journey
                   </h1>
                 </div>
-                <h1 className="text-5xl lg:text-7xl font-bold lg:pr-20">
+                <h1 className="text-4xl lg:text-7xl font-bold pr-0 lg:pr-20">
                   Best <span className={Styles.BannerOn}>Online</span> courses
                   from <span className={Styles.BannerOn}>MH</span>Academy!
                 </h1>
@@ -25,7 +25,7 @@ export default function Banner() {
               </div>
               <Link to="/all-courses">
                 {" "}
-                <div className="my-4">
+                <div className="mt-4">
                   <button className=" w-[180px] h-[50px] bg-red-500 hover:bg-red-600 rounded-full text-white capitalize cursor-pointer">
                     Find Your Course
                   </button>
