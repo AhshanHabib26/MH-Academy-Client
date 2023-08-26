@@ -3,6 +3,7 @@ import Categorie from "../components/Categorie";
 import HCourse from "../components/HCourse";
 import HInstractor from "../components/HInstractor";
 import SkillsBanner from "../components/SkillsBanner";
+import Testimonials from "../components/Testimonials";
 import WhyChoose from "../components/WhyChoose";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <WhyChoose />
       <Categorie />
       <HInstractor />
+      <Testimonials />
     </div>
   );
 }
