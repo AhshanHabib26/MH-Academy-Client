@@ -5,7 +5,7 @@ import { BsAlarm } from "react-icons/bs";
 export default function WhyChoose() {
   return (
     <div className="">
-      <div className="px-3 lg:px-14 py-16">
+      <div className="px-3 lg:px-14 py-14">
         <div className="mx-5 lg:mx-auto max-w-7xl ">
           <div>
             <div className="text-center">
